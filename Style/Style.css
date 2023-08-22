@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+   background-color: black;
+    height: 5rem;
+    width: 119rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.Titulo-nav{
+    color: white;
+    display: flex;
+    justify-content: left;
+    height: 2rem;
+    width: 119rem;
+   
+}
+.Navegacion{
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    width: 115;
+    gap: 2rem;
+   
+}
+.navegacion1{
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    background-color: white;
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    width: 115;
+    gap: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.navegacion2{
+
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    background-color: white;
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    width: 115;
+    gap: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.navegacion3{
+ 
+    border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+    background-color: white;
+    display: flex;
+    height: 2rem;
+    justify-content: right;
+    width: 115;
+    gap: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.Imgbanner{
+    height: 20rem;
+    width: 119rem;
+    object-fit: cover;
+}
+header{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+.Contenedorsupremo{
+    background-color: white;
+    height: 25rem;
+}
+.Contenedor-de-cartas{
+    height: 20rem;
+    width: 100rem;
+    display: flex;
+    justify-content: space-around;
+    background-color:gainsboro ;
+    align-items: center;
+    align-content: center;
+    margin: 9rem;
+    margin-top: 4rem;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+.imgcarta{
+    height: 10rem;
+    width: 20rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+
+.Carta1{
+   
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 22rem;
+    align-items: center;
+    
+}
+.Carta1 p{
+    margin: 1rem;
+}
+.Carta2{
+   
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 22rem;
+    align-items: center;
+}
+.Carta2 p{
+    margin: 1rem;
+}
+.Carta3{
+  
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 22rem;
+    align-items: center;
+}
+.Carta3 p{
+    margin: 1rem;
+}
+.Conenedor-listas-tablas{
+    height: 20rem;
+    width: 100rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: gainsboro ;
+    align-items: center;
+    border-radius: 3rem 3rem 3rem 3rem;
+}
+h2{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+table tr,th,td {
+    border: 1px solid black;
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5rem;
+}
+.Pie-de-pagina{
+    text-decoration: none;
+}
+span{
+    color:white
+}
+
+@media (max-width: 1024px){
+    nav{
+        width: 48rem;
+    }
+    .Imgbanner{
+        height: 20rem;
+        width: 48rem;
+    }
+    header{
+        width: 48rem;
+    }
+    .Contenedor-de-cartas{
+        flex-direction: column;
+        height: 60rem;
+        width: 30rem;
+        gap: 3rem;
+    }
+    h2{
+        width: 48rem;
+    }
+    .Conenedor-listas-tablas{
+        flex-direction: column;
+        width: 30rem;
+        height: 20rem;
+    }
+    .Contenedorsupremo{
+        height: 65rem;
+        width: 48rem;
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        width: 48rem;
+    }
+}
